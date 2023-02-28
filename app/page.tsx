@@ -1,5 +1,6 @@
 "use client";
 import About from "@/components/About";
+import Core from "@/components/Core";
 import Description from "@/components/Description";
 import Hero from "@/components/Hero";
 import Study from "@/components/study";
@@ -12,6 +13,7 @@ function Home() {
       <About />
       <Description />
       <Study />
+      <Core />
     </>
   );
 }
