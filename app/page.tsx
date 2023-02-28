@@ -3,8 +3,9 @@ import About from "@/components/About";
 import Core from "@/components/Core";
 import Description from "@/components/Description";
 import Hero from "@/components/Hero";
+import Outcome from "@/components/Outcome";
 import Program from "@/components/Program";
-import Study from "@/components/study";
+import Study from "@/components/Study";
 import React from "react";
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
       <Study />
       <Core />
       <Program />
+      <Outcome />
     </>
   );
 }
