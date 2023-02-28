@@ -1,8 +1,11 @@
 'use client'
+import Hero from "@/components/Hero";
 import React from "react";
 
 function Home() {
-  return <div>Home</div>;
+  return (
+    <Hero/>
+  )
 }
 
 export default Home;
