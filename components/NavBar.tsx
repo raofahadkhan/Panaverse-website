@@ -53,41 +53,41 @@ const Navbar = () => {
                 Courses
               </MenuButton>
               <MenuList>
-                <MenuItem>
-                  <Link href="/ai">
+                <Link href="/ai">
+                  <MenuItem>
                     <Text fontSize={"sm"}>Artificial Intelligence (AI)</Text>
-                  </Link>
-                </MenuItem>
-                <MenuItem>
-                  <Link href="/iot">
+                  </MenuItem>
+                </Link>
+                <Link href="/iot">
+                  <MenuItem>
                     <Text fontSize={"sm"}>IoT and Ambient Computing (IOT)</Text>
-                  </Link>
-                </MenuItem>
-                <MenuItem>
-                  <Link href="/cnc">
+                  </MenuItem>
+                </Link>
+                <Link href="/cnc">
+                  <MenuItem>
                     <Text fontSize={"sm"}>Cloud-Native Computing (CNC)</Text>
-                  </Link>
-                </MenuItem>
-                <MenuItem>
-                  <Link href="/bcc">
+                  </MenuItem>
+                </Link>
+                <Link href="/bcc">
+                  <MenuItem>
                     <Text fontSize={"sm"}>BlockChain Computing (BCC)</Text>
-                  </Link>
-                </MenuItem>
+                  </MenuItem>
+                </Link>
 
-                <MenuItem>
-                  <Link href="/gab">
+                <Link href="/gab">
+                  <MenuItem>
                     <Text fontSize={"sm"}>
                       Genomics and Bioinformatics (GaB)
                     </Text>
-                  </Link>
-                </MenuItem>
-                <MenuItem>
-                  <Link href="/npa">
+                  </MenuItem>
+                </Link>
+                <Link href="/npa">
+                  <MenuItem>
                     <Text fontSize={"sm"}>
                       Network Programmability and Automation (NPA)
                     </Text>
-                  </Link>
-                </MenuItem>
+                  </MenuItem>
+                </Link>
               </MenuList>
             </Menu>
           </HStack>
